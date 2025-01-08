@@ -1,0 +1,131 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color:#8D7471;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.con{
+    height: 95vh;
+    width: 90%;
+    background-color: #9F838C;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 2px 2px 10px; rgb(40,160,177) , -2px -2px 10px rgb(240,188,240);
+    
+}
+.heading{
+   
+   font-size: 18px;
+   padding-bottom: 5%;
+}
+input{
+    width: 80vw;
+    height: 7vh;
+    
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 100%;
+    box-shadow: 2px 2px 10px; rgb(40,160,177) , -2px -2px 10px rgb(240,188,240);
+}
+.txt1{
+   
+    text-align: center;
+    margin-bottom: 10px
+    
+}
+.bt{
+
+    height: 7%;
+    width: 20vw;
+    margin-top: 2%;
+    margin-bottom: 50px;
+    
+    
+    
+}
+#btn{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    font-size: 100%;
+    background-color:#816F68 ;
+    box-shadow: 2px 2px 10px; rgb(40,160,177) , -2px -2px 10px rgb(240,188,240);
+
+    
+   
+}
+.image{
+    
+    height: 45vh;
+    width: 30vw;
+    background-color: #C9C9EE;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px; rgb(40,160,177) , -2px -2px 10px rgb(240,188,240);
+}
+#img{
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    display: none;
+}
+@media (width<=400px) {
+    .heading{
+   
+        font-size: 18px;
+        padding-bottom: 5%;
+    }    
+    .image{
+    
+            height: 50vh;
+            width: 90vw;
+            background-color: #C9C9EE;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px; rgb(40,160,177) , -2px -2px 10px rgb(240,188,240);
+    }
+    #img{
+            border-radius: 10px;
+            height: 100%;
+            width: 100%;
+            border-radius: 10px;
+            display: none;
+            box-shadow: 2px 2px 10px; rgb(40,160,177) , -2px -2px 10px rgb(240,188,240);
+        
+            
+    }
+    #load{
+        height: 30vh;
+        width: 20vw;
+        position: fixed;
+        padding: 30%;
+        display: none;
+        
+    }
+
+}
+
+#load{
+    height: 16vh;
+    width: 10vw;
+    position: fixed;
+    margin-left: 10%;
+    margin-top:8% ;
+    display: none;
+}
+p{
+    margin-top: 10px;
+}
+
