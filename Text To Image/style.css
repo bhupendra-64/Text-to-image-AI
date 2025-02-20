@@ -10,11 +10,12 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background:linear-gradient(45deg,#302f2f,#39485c);
 }
 .con{
     height: 95vh;
     width: 90%;
-    background-color: #9F838C;
+    background:linear-gradient(45deg,#0a0a0a,#3a4452);
     display: flex;
     border-radius: 10px;
     align-items: center;
@@ -26,6 +27,7 @@ body{
    
    font-size: 18px;
    padding-bottom: 5%;
+   color: white;
 }
 input{
     width: 80vw;
@@ -42,7 +44,9 @@ input{
 .txt1{
    
     text-align: center;
-    margin-bottom: 10px
+    margin-bottom: 10px;
+    color: wheat;
+    
     
 }
 .bt{
@@ -51,6 +55,7 @@ input{
     width: 20vw;
     margin-top: 2%;
     margin-bottom: 50px;
+    
     
     
     
@@ -63,6 +68,7 @@ input{
     font-size: 100%;
     background-color:#816F68 ;
     box-shadow: 2px 2px 10px; rgb(40,160,177) , -2px -2px 10px rgb(240,188,240);
+    font-weight: bold;
 
     
    
@@ -127,5 +133,6 @@ input{
 }
 p{
     margin-top: 10px;
+    color: aliceblue;
 }
 

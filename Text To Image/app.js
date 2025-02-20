@@ -1,8 +1,8 @@
-const key="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";
-let btn=document.querySelector("#btn");
-let inputText=document.querySelector("#text");
-let image=document.querySelector("#img");
-let load=document.querySelector("#load");
+const key = "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";
+let btn = document.querySelector("#btn");
+let inputText = document.querySelector("#text");
+let image = document.querySelector("#img");
+let load = document.querySelector("#load");
 
 
 
@@ -41,4 +41,11 @@ async function genrate(){
 }
 btn.addEventListener('click',()=>{
     genrate();
+})
+text.addEventListener("keydown",(e)=>{
+	if(e.key=="Enter"){
+		genrate();
+
+	}
+
 })
