@@ -42,7 +42,7 @@ async function genrate(){
 btn.addEventListener('click',()=>{
     genrate();
 })
-text.addEventListener("keydown",(e)=>{
+inputText.addEventListener("keydown",(e)=>{
 	if(e.key=="Enter"){
 		genrate();
 
